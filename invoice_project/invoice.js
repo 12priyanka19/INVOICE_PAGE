@@ -195,6 +195,8 @@ document.querySelector("#totTax").addEventListener("change",()=>
 })
 
 let m=document.querySelector("#totTax");
+let n=document.querySelector("#totTax");
+let o=document.querySelector("#totTax");
 
 
 

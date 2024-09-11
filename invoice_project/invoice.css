@@ -1,0 +1,186 @@
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:10px;
+    border-color: black;
+    border-width: 10px;
+    /* margin: 5px; */
+    flex-wrap: nowrap;
+    gap:1px;
+}
+
+
+.table-con h3{
+    margin: 2px;
+}
+.cont-top p
+{
+    margin: 2px;
+}
+.break{
+    margin: 5px;
+
+}
+.cont-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.cont-top div{
+
+}
+.table-con{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border-collapse:collapse ;
+    border: 1px solid black;
+}
+th,td{
+    padding: 5px 10px 5px 10px;
+}
+th{
+    background-color: rgb(242, 180, 65);
+}
+form input{
+    border: none;
+}
+form input:hover{
+    background-color: gray;
+    border-radius: 2px;
+}
+.from-to{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 5px;
+    padding :5px;
+    gap:4px;
+}
+.from-to div{
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    overflow-x: auto;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.billedby{
+    margin: 5px;
+    padding: 5px;
+}
+.from-to .billedby p{
+    margin:0px;
+    padding: 7px;
+}
+.billTable{
+    display: flex;
+    flex-direction: row;
+}
+
+#rowAdd{
+    margin-left:5px
+}
+
+#addRow {
+   overflow-x: auto;
+}
+#addRow td{
+    margin: 0px;
+    /* padding: 0px; */
+}
+#addRow input{
+    width: 55px;
+    border: none;
+}
+table{
+    overflow-x: auto;
+}
+.hide{
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+
+.visi{
+    visibility: visible;
+}
+
+.finaldiv{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    gap:5px;
+}
+.words{
+    margin: 10px;
+    border: 1px solid orange;
+    
+}
+.words p{
+    margin-top: 0px;
+    background-color:rgb(242, 180, 65);
+    padding: 10px;
+}
+.words textarea{
+    border: none;
+}
+
+.tallyTable input{
+    border: none;
+}
+.bank{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 15px; 
+    gap:10px;
+    border: 1px solid orange;
+}
+.details{
+    border: 1px solid olivedrab;
+    margin: 5px;
+}
+.details p
+{
+    margin: 2px;
+}
+.name{
+    padding-top:3vh;
+}
+.availabel{
+    display: flex;
+    /* justify-content:left; */
+    align-items: left;
+}
+.availabel p input{
+    padding-left:1vh;
+    border: none;
+}
+
+span{
+    color: rgb(33, 168, 213);
+    text-decoration: underline;
+}
+
+#addrow tr td input
+{
+    
+    
+}

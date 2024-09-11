@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="invoice.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main_content">
+    <div class="cont-top">
+        <div>
+            <img src="image1.png">
+        </div>
+        <div>
+        <p>Phone:+91 7022123880</p>
+        <p>Email: info@smarthmeditech.com</p>
+        <p>CIN No: U72900KA2020PTC135774</p>
+        <p>GST: 29ABDCS9256R1Z8</p>
+        <p>STPI,ITPark,Deshpande Nagar, Hubli-29</p>
+    </div>
+    </div>
+    <div class="table-con">
+        <div >
+        <h3>Tax Invoice</h3>
+    </div>
+    <div>
+        <form action="">
+        <table>
+            <tr>
+                <th>Invoice No</th>
+                <td>SM/TI/004</td>
+                <th>Date of Supply</th>
+                <td><input type="date" name="date1"></td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td><input type="date" name="date2"></td>
+                <th>Transfer mode</th>
+                <td>Online</td>  
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>Karnataka</td>
+                <th>place of supply</th>
+                <td>Karnataka</td>
+            </tr>
+            <tr>
+                <th>State code</th>
+                <td>29</td>
+                <th>Reverse Charge</th>
+                <td>----</td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    </div>
+
+    <div class="from-to">
+        <div>
+            <p>Billed To,</p>
+            <form>
+                <textarea name="billed to" id="billedto" rows="8" cols="35"></textarea>
+            </form>
+        </div>
+        <div class="billedby">
+            <p>Billed By,</p>
+            <!-- <br> -->
+            <p>SAMARTH MEDITECH PVT LTD</p>
+            <p>Software technology parks of india, IT park 4th floor,
+                Deshpande nagar, Hubli, Karnataka,India-580030
+            </p>
+            <p>GSTIN: 29ABDCS9256R1Z8</p>
+            <p>Email: info@smarthmeditech.com</p>
+        </div>
+    </div>
+
+    <div class="billTable">
+        <div >
+        <table id="addRow">
+            <tr>
+                <th >SL No</th>
+                <th>Goods Description</th>
+                <th>HSN</th>
+                <th >Qty</th>
+                <!-- <th>Currency</th> -->
+                <th >Amount</th>
+                <th >Taxable<br>
+                     Amount</th>
+                <th >IGST</th>
+                <th >Total</th>
+            </tr>
+        </table>
+        <table class="hide">
+            <tr >
+                <td colspan="2" style="text-align: center;">Total</td>
+                <td class="grandtotal" style="text-align: center;"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <button id="rowAdd">Add Row</button>
+    </div>
+    </div>
+    <div class="finaldiv">
+        <div class="words">
+            <p>Total invoice amount in rupees</p>
+            <textarea rows="5" cols="30"></textarea>
+        </div>
+        <div class="tallyTable">
+            <table>
+                <tr>
+                    <td>Total amount before tax</td>
+                    <td><input type="text" id="amtBf" value=""></td>
+                </tr>
+                <tr>
+                    <td>CGST</td>
+                    <td><input type="text" id="cgst" value=""></td>
+                </tr>
+                <tr>
+                    <td>SGST</td>
+                    <td><input type="text" id="sgst" value=""></td>
+                </tr>
+                <tr>
+                    <td>Total Tax Amount</td>
+                    <td><input type="text" id="totTax" value=""></td>
+                </tr>
+                <tr>
+                <td>Total amount after Tax</td>
+                <td class="tallyAmount"></td>
+                </tr>
+                <tr style="background-color: rgb(242, 180, 65);">
+                    <td>GST on reverse Charge</td>
+                    <td>---</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="bank">
+        <div class="details">
+            <p>Bank Details:</p>
+            
+            <p>Account Name:SAMARTH MEDITACH PRIVATE LIMITED</p>
+            <p>Account Number:922020031637809</p>
+            <p>IFSC:UTIB0003949</p>
+            <p>Account Type:Current Bank AXIS BANK INDIA</p>
+            <p>Swift-Code:AXISNBB267</p>
+        </div>
+        <div class="address">
+            <p>SAMARTH MEDITECH PRIVATE LIMITED.</p>
+            <p class="name">Narasimhadatta C Patil</p>
+
+        </div>
+    </div>
+    <div class="availabel">
+        <p>We provide this service From <input type="date"> To <input type="date"></p>
+    </div>
+
+    <div>
+        <p>For further details please reach us at <span>hr@smarthmeditech.com</span> or contact our team on 7022723880 we wait for your response</p>
+    </div>
+</div>
+<div>
+    <button id="clickevt">Print</button>
+</div>
+<script src="invoice.js"></script>
+</body>
+</html>

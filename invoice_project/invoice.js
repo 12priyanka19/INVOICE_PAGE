@@ -194,9 +194,9 @@ document.querySelector("#totTax").addEventListener("change",()=>
     document.querySelector(".tallyAmount").innerText=totTallyAmount;
 })
 
-let m=document.querySelector("#totTax");
-let n=document.querySelector("#totTax");
-let o=document.querySelector("#totTax");
+// let m=document.querySelector("#totTax");
+// let n=document.querySelector("#totTax");
+// let o=document.querySelector("#totTax");
 
 
 

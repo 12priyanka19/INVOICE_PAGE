@@ -198,5 +198,5 @@ document.querySelector("#totTax").addEventListener("change",()=>
 // let n=document.querySelector("#totTax");
 // let o=document.querySelector("#totTax");
 
-
+console.log("Welocome to my git clone");
 
